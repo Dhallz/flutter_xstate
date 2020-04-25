@@ -10,7 +10,7 @@ class XStateDummy extends StatelessWidget {
   final Widget child;
   final XStateModel model;
 
-  XStateDummy(this.child, this.model);
+  XStateDummy({@required this.child, @required this.model});
 
   @override
   Widget build(BuildContext context) {
