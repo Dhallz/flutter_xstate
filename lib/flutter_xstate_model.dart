@@ -8,6 +8,8 @@ class XStateModel {
   // XStateModel supported widgets variables.
   final Function onPressed;
   final Function onSaved;
+  final Function onLongPress;
+  final String Function(dynamic) validator;
   final String test;
 
   XStateModel({
@@ -16,6 +18,8 @@ class XStateModel {
     @required this.isEnable,
     this.onPressed,
     this.onSaved,
+    this.onLongPress,
+    this.validator,
     this.test,
   });
 }
