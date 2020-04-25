@@ -1,6 +1,6 @@
 # flutter_xstate
 
-A new Flutter package project.
+A profile managment package for Flutter.
 
 ## Getting Started
 
