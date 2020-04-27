@@ -25,8 +25,8 @@ void main() {
     testWidgets('[XState] Get widget and return one whith the model rules.',
         (WidgetTester tester) async {
       Widget _xStateDummy = XStateDummy(
-        _floatingActionButton,
-        _xStateModel,
+        child: _floatingActionButton,
+        model :_xStateModel,
       );
       var widget;
 
